@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -14,19 +26,25 @@
     display: flex;
     justify-content: center;
   }
+
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   
   .main {
     width: 90%;
-    border: 2px solid black;
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 20px;
   }
   
-  .posts {
-    width: 440px;
-    border: 2px solid black;
+  .left-box {
+    width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,18 +53,55 @@
   .post-card {
     display: flex;
     flex-direction: column;
-    width: 220px;
+    width: 230px;
+    margin: 10px 10px;
   }
   
-  img {
-    width: 200px;
+  .post-card-img {
+    width: 230px;
+    border-radius: 5px;
+  }
+
+  .h3 {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000000;
+    text-decoration: none;
   }
   
-  .recents {
-    width: 300px;
-    border: 2px solid black;
+  .post-description {
+    font-size: 10px;
+  }
+
+  .right-box {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .litle-posts {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    margin-bottom: 10px;
   }
-  
+
+  .litle-post-img {
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  .litle-post-description {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #000000;
+    text-decoration: none;
+    align-self: center;
+  }
