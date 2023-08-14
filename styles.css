@@ -1,0 +1,52 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .header {
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    width: 90%;
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .posts {
+    width: 440px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .post-card {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+  }
+  
+  img {
+    width: 200px;
+  }
+  
+  .recents {
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
